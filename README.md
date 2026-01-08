@@ -32,7 +32,7 @@ Dependency Layer
       Aggregate Root
 ```
 
-```csharp
+```nginx
 
 2. UseCase or Business Service project
       will have infrastructure interfaces like Repository interfaces (ex IRepository, IAuthorRepository)
@@ -46,7 +46,7 @@ Dependency Layer
 
 ```
 
-```csharp
+```nginx
 
 3. Infrastructure Project
       Should have implementation for Repositories. (ex AuthorRepository)
