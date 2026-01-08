@@ -1,5 +1,5 @@
 # Clean-Architecture
-This repository is discuss about Clean architecture by using technology asp.net core and angular.
+This repository is discuss about Clean architecture by using technology Asp.Net Core and Angular.
 Solution consists of following projects 
 1. Entities
 2. UseCase or BusinessService
@@ -35,8 +35,8 @@ Dependency Layer
 ```nginx
 
 2. UseCase or Business Service project
-      will have infrastructure interfaces like Repository interfaces
-      will have services interfaces
+      will have infrastructure interfaces like **Repository interfaces**
+      will have **services interfaces**
       will have usecase interfaces
       unitofwork interfaces
       transaction interfaces
