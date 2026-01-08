@@ -57,8 +57,8 @@ Dependency Layer
       expose only interfaces and composition root using public access specifiers
             (ex IAuthorService, RegistorService())
 
-      usecase implementation should have transactions implemented using IUnitOFWork
-             and ITransaction interface
+      usecase (AuthorService) implementation should have transactions implemented
+         using IUnitOFWork interface
 
 ```
 
