@@ -36,13 +36,20 @@ Dependency Layer
 
 2. UseCase or Business Service project
       will have infrastructure interfaces like Repository interfaces (ex IRepository, IAuthorRepository)
+
       will have services interfaces (ex IEmailService)
+
       will have usecase interfaces (ex IAuthorService)
+
       unitofwork interfaces (ex IUnitOfWork)
+
       transaction interfaces (ex ITransaction)
+
       usecase implementation with internal access specifiers (ex internal class AuthorService)
+
       expose only interfaces and composition root using public access specifiers
             (ex IAuthorService, RegistorService())
+
       usecase implementation should have transactions implemented using IUnitOFWork
              and ITransaction interface
 
@@ -52,10 +59,15 @@ Dependency Layer
 
 3. Infrastructure Project
       Should have implementation for Repositories. (ex AuthorRepository)
+
       Should have implementation for Transaction. (ex EFTransaction)
+
       Should have implementation for UnitOfWork. (ex UnitOfWork)
+
       Should have implementation for Services. (ex EmailService)
+
       All the above four are with internal access specifiers.
+
       Expose CompositeRoot to register the Dependency injection. (RegisterRepositories() method)
 
 ```
