@@ -42,7 +42,8 @@ Dependency Layer
 
 2. UseCase or Business Service project
 
-      will have infrastructure interfaces like Repository interfaces (ex IRepository, IAuthorRepository)
+      will have infrastructure interfaces like Repository interfaces
+            (ex IRepository, IAuthorRepository)
 
       will have services interfaces (ex IEmailService)
 
