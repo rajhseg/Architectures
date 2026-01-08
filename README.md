@@ -7,19 +7,33 @@ Solution consists of following projects
 4. Controller
 
 Clean Architecture Dependency travels towards inwards with DDD (Domain Driven Design)
+
+<br />
+
 Dependency Layer
 -----------------------
+
+```nginx
+
    UseCase --> Entities
    Infrastructure --> UseCase
                   --> Entities
    Controller --> UseCase
               --> Refers Infrastrucure only for Composition Root.
 
+```
+<br />
+
+```nginx
+
 1. Entities or Domain project
       will have only about Entities or Domain
       Value Objects
       Aggregate Root
-   
+``
+
+```nginx
+
 2. UseCase or Business Service project
       will have infrastructure interfaces like Repository interfaces
       will have services interfaces
@@ -30,6 +44,10 @@ Dependency Layer
       expose only interfaces and composition root using public access specifiers
       usecase implementation should have transactions implemented with interface
 
+```
+
+```nginx
+
 3. Infrastructure Project
       Should have implementation for Repositories.
       Should have implementation for Transaction.
@@ -38,7 +56,13 @@ Dependency Layer
       All the above four are with internal access specifiers.
       Expose CompositeRoot to register the Dependency injection.
 
+```
+
+```nginx
+
 4. Controller Project
        Should register the services in program.cs
        refer the usecase service and call it.
+
+```
    
