@@ -60,7 +60,9 @@ Dependency Layer
       usecase implementation should have transactions implemented using IUnitOFWork
              and ITransaction interface
 
-         ```csharp
+```
+
+```csharp
 
         public async Task DeleteAuthor(int id)
         {
@@ -87,8 +89,6 @@ Dependency Layer
                 await trans.DisposeAsync();
             }
         }
-
-         ```
 
 ```
 
