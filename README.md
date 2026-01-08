@@ -16,8 +16,10 @@ Dependency Layer
 ```nginx
 
    UseCase --> Entities
+
    Infrastructure --> UseCase
                   --> Entities
+
    Controller --> UseCase
               --> Refers Infrastrucure only for Composition Root.
 
@@ -27,14 +29,19 @@ Dependency Layer
 ```nginx
 
 1. Entities or Domain project
+
       will have only about Entities or Domain
+
       Value Objects
+
       Aggregate Root
+
 ```
 
 ```nginx
 
 2. UseCase or Business Service project
+
       will have infrastructure interfaces like Repository interfaces (ex IRepository, IAuthorRepository)
 
       will have services interfaces (ex IEmailService)
@@ -58,6 +65,7 @@ Dependency Layer
 ```nginx
 
 3. Infrastructure Project
+
       Should have implementation for Repositories. (ex AuthorRepository)
 
       Should have implementation for Transaction. (ex EFTransaction)
@@ -75,7 +83,9 @@ Dependency Layer
 ```nginx
 
 4. Controller Project
+
        Should register the services in program.cs
+
        refer the usecase service and call it.
 
 ```
