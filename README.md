@@ -62,35 +62,6 @@ Dependency Layer
 
 ```
 
-```csharp
-
-        public async Task DeleteAuthor(int id)
-        {
-            if (default(int) == id)
-            {
-                throw new ArgumentNullException(nameof(id));
-            }
-
-            var author = await _authorRepository.GetById(id);
-
-            var trans = await _unitOfWork.BeginTransactionAsync();
-            try
-            {
-                await _authorRepository.Delete(author);
-                await _unitOfWork.CommitTransactionAsync(trans);
-            }
-            catch
-            {
-                await trans.RollbackAsync();
-                throw;
-            }
-            finally
-            {
-                await trans.DisposeAsync();
-            }
-        }
-
-```
 
 ```nginx
 
