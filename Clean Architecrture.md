@@ -3,7 +3,7 @@ This repository is discuss about Clean architecture by using technology Asp.Net 
 Solution consists of following projects 
 
 1. Entities
-2. UseCase or BusinessService
+2. UseCase or Application
 3. Infrastructure
 4. Controller
 
@@ -27,6 +27,7 @@ Dependency Layer
               --> Refers Infrastrucure only for Composition Root.
 
 ```
+
 <br />
 
 <br />
@@ -45,13 +46,11 @@ Dependency Layer
 
 <br />
 
-```nginx
-
 <br />
 
 ```nginx
 
-2. UseCase or Business Service project
+2. UseCase or Application project
       
       will have infrastructure interfaces like Repository interfaces
             (ex IRepository, IAuthorRepository)
