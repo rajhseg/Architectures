@@ -8,6 +8,18 @@ Currently it have below items
 3. Hexagonal Architecure
 4. Clean Architecture
 
+Solution consists of following projects
+
+```typescript
+
+Entities or Domain
+Ports (only for Hexagonal arch project)
+UseCase or BusinessService or Application Layer
+Infrastructure
+Controller
+
+```
+
 Architecures are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
 1. For **Layered** Architecure **RepositoryAndExternalSystems** Interfaces placed in **Domain layer**.
