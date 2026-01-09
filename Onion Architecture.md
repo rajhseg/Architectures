@@ -21,6 +21,7 @@ Dependency Layer
    UseCase  --> Entities
 
    Infrastructure --> Entities
+                  --> UseCase
 
    Controller --> Refers UseCase only for Composition Root and IApplicationService.
               --> Refers Infrastrucure only for Composition Root.
@@ -40,20 +41,6 @@ Dependency Layer
 
       Aggregate Root
 
-      
-      will have infrastructure interfaces like Repository interfaces
-            (ex IRepository, IAuthorRepository)
-
-      unitofwork interfaces (ex IUnitOfWork)
-
-      transaction interfaces (ex ITransaction)
-
-      will have External System Services interfaces (ex IEmailService)
-
-      will have External System Contracts or interfaces (ex IPaymentServiceGateway
-            or IAddressValidate)
-
-
 ```
 
 <br />
@@ -71,6 +58,18 @@ Dependency Layer
 
       usecase (AuthorService) implementation should have transactions implemented
          using IUnitOFWork interface
+
+      will have infrastructure interfaces like Repository interfaces
+            (ex IRepository, IAuthorRepository)
+
+      unitofwork interfaces (ex IUnitOfWork)
+
+      transaction interfaces (ex ITransaction)
+
+      will have External System Services interfaces (ex IEmailService)
+
+      will have External System Contracts or interfaces (ex IPaymentServiceGateway
+            or IAddressValidate)
 
 ```
 
