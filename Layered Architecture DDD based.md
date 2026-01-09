@@ -11,8 +11,6 @@ Layered Architecture Dependency travels towards inwards
 
 <br />
 
-<br />
-
 Dependency Layer
 -----------------------
 
