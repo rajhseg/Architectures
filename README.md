@@ -33,10 +33,15 @@ What are the interfaces present in **RepositoryAndExternalSystems** Interfaces
 
 ```typescript
 
+Repository Interfaces
+
 1. IUnitOFWork
 2. ITransaction
 3. IRepository
 4. I{Entity}Repository
+
+ExternalSystems Interfaces
+
 5. IEmaiService
 6. ILoggingService
 7. IPaymentService
