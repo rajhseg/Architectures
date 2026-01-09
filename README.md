@@ -8,7 +8,7 @@ Currently it have below items
 3. Hexagonal Architecure
 4. Clean Architecture
 
-Architecures are differ based on the **RepositoryAndExternalSystems** Interfaces placing
+Architecures are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
 1. For Layered and Onion Architecure **RepositoryAndExternalSystems** Interfaces placed in **Domain layer**.
 2. For Hexagonal Architecture **RepositoryAndExternalSystems** Interfaces is placed in separate project as **Ports layer**.
