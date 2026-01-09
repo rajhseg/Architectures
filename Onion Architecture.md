@@ -3,7 +3,7 @@ This repository is discuss about Onion architecture by using technology Asp.Net 
 Solution consists of following projects 
 
 1. Entities
-2. UseCase or BusinessService
+2. UseCase or Application
 3. Infrastructure
 4. Controller
 
@@ -47,7 +47,7 @@ Dependency Layer
 
 ```nginx
 
-2. UseCase or Business Service project
+2. UseCase or Application project
 
       will have usecase interfaces (ex IAuthorService)
 
