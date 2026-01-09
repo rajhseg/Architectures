@@ -3,8 +3,8 @@ This repository is discuss about Hexagonal architecture by using technology Asp.
 Solution consists of following projects 
 
 1. Entities
-2. BusinessService.ExternalSystems.Contracts ((Ports) separate project for application layer interface)
-3. UseCase or BusinessService
+2. Application.ExternalSystems.Contracts ((Ports) separate project for application layer interface)
+3. UseCase or Application
 4. Infrastructure
 5. Controller
 
