@@ -47,13 +47,6 @@ Dependency Layer
 
       Aggregate Root
 
-      will have infrastructure interfaces like Repository interfaces
-            (ex IRepository, IAuthorRepository)
-
-      unitofwork interfaces (ex IUnitOfWork)
-
-      transaction interfaces (ex ITransaction)
-
 ```
 <br />
 
@@ -61,9 +54,15 @@ Dependency Layer
 
 2. UseCaseExternalSystemInterfaces
 
-   
-      will have External System Services interfaces (ex IEmailService)
+      
+      will have infrastructure interfaces like Repository interfaces
+            (ex IRepository, IAuthorRepository)
 
+      unitofwork interfaces (ex IUnitOfWork)
+
+      transaction interfaces (ex ITransaction)
+
+      will have External System Services interfaces (ex IEmailService)
 
       will have External System Contracts or interfaces (ex IPaymentServiceGateway
             or IAddressValidate)
