@@ -12,7 +12,7 @@ Architecures are differ based on the **RepositoryAndExternalSystems** Interfaces
 
 1. For **Layered** Architecure **RepositoryAndExternalSystems** Interfaces placed in **Domain layer**.
 2. For **Hexagonal** Architecture **RepositoryAndExternalSystems** Interfaces placed in separate project as **Ports layer**.
-3. For **Clean** and **Onion** Archtecture **RepositoryAndExternalSystems** Interfaces is placed in **UseCase layer**.
+3. For **Clean** and **Onion** Archtecture **RepositoryAndExternalSystems** Interfaces is placed in **UseCase or Application layer**.
 
 <br />
 
