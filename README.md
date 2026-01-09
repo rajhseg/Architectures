@@ -1,13 +1,14 @@
-# Clean-Architecture
-This repository is discuss about Clean architecture by using technology Asp.Net Core and Angular.
+# Hexagonal-Architecture
+This repository is discuss about Hexagonal architecture by using technology Asp.Net Core and Angular.
 Solution consists of following projects 
+
 1. Entities
-2. BusinessService.ExternalSystems.Contracts 
+2. BusinessService.ExternalSystems.Contracts ((Ports) separate project for application layer interface)
 3. UseCase or BusinessService
 4. Infrastructure
 5. Controller
 
-Clean Architecture Dependency travels towards inwards with DDD (Domain Driven Design)
+Hexagonal Architecture Dependency travels towards inwards
 
 <br />
 
