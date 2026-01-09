@@ -14,7 +14,7 @@ Solution consists of following projects
 
 1. Entities or Domain or Business 
 2. UseCase or Application 
-3. Infrastructure or DataAccess 
+3. Infrastructure or DataAccess or Adapters
 4. Controller
 
 5. Ports (only for Hexagonal arch project)
