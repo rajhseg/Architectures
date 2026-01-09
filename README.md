@@ -10,6 +10,10 @@ Clean Architecture Dependency travels towards inwards with DDD (Domain Driven De
 
 <br />
 
+<img width="643" height="331" alt="image" src="https://github.com/user-attachments/assets/0f5ffe8a-4e05-4931-be45-34e1f871a79a" />
+
+<br />
+
 <img width="719" height="343" alt="image" src="https://github.com/user-attachments/assets/efc52030-25de-4482-96ab-37e5ff3bb78a" />
 
 <br />
