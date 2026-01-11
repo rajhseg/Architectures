@@ -20,10 +20,15 @@ Solution consists of following projects
 5. Ports (only for Hexagonal arch project)
 
 ```
+<br />
+<br />
 
 > [!IMPORTANT]
 > Below information that users should take into account.
 >
+
+<br />
+<br />
 
 Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
@@ -31,6 +36,7 @@ Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces
 2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces placed in separate project as $${\color{blue} Ports }$$ $${\color{blue} layer }$$.
 3. For **Clean** and **Onion** Archtecture RepositoryAndExternalSystems Interfaces is placed in $${\color{blue} UseCase }$$ $${\color{blue} layer }$$ or $${\color{blue} Application }$$ $${\color{blue} layer }$$.
 
+<br />
 <br />
 
 What are the interfaces present in **RepositoryAndExternalSystems** Interfaces
