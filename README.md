@@ -28,8 +28,6 @@ Solution consists of following projects
 >
 
 <br />
-<br />
-
 Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
 1. For **Layered** Architecture Repository Interfaces placed in $${\color{blue} Domain }$$ $${\color{blue} layer }$$, ExternalSystems interfaces in $${\color{blue} Application }$$ $${\color{blue} layer }$$.
