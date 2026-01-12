@@ -11,7 +11,7 @@ Onion Architecture Dependency travels towards inwards
 
 <br />
 
-# $\textsf{\color{darkblue}{Dependency\spaceLayer}}$ 
+# $\textsf{\color{darkblue}{Dependency Layer}}$ 
 Dependency Layer
 -----------------------
 
