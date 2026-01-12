@@ -12,8 +12,7 @@ Clean Architecture Dependency travels towards inwards
 
 <br />
 
-$${\color{blue} Dependency }$$ $${\color{blue} layer }$$
------------------------
+# $\textsf{\color{darkblue}{Dependency Layer}}$ 
 
 ```nginx
 
