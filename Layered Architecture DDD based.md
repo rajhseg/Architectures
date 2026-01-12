@@ -11,8 +11,8 @@ Layered Architecture Dependency travels towards inwards
 
 <br />
 
-Dependency Layer
------------------------
+
+# $\textsf{\color{darkblue}{Dependency Layer}}$ 
 
 ```nginx
 
