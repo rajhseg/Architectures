@@ -12,8 +12,6 @@ Onion Architecture Dependency travels towards inwards
 <br />
 
 # $\textsf{\color{darkblue}{Dependency Layer}}$ 
-Dependency Layer
------------------------
 
 ```nginx
 
