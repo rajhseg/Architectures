@@ -1,5 +1,5 @@
 # $\textsf{\color{darkblue}{Onion-Architecture}}$ 
-This repository is discuss about Onion architecture by using technology Asp.Net Core and Angular.
+This repository will explain about Onion architecture by using technology Asp.Net Core and Angular.
 Solution consists of following projects 
 
 1. Entities
