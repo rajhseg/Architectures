@@ -65,8 +65,6 @@ Layered Architecture Dependency travels towards inwards
       expose only interfaces and composition root using public access specifiers
             (ex IAuthorService, RegistorService())
 
-      usecase (AuthorService) implementation should have transactions implemented
-         using IUnitOFWork interface
 
       will have External System Services interfaces (ex IEmailService)
 
@@ -103,7 +101,7 @@ Layered Architecture Dependency travels towards inwards
 
        Should register the services in program.cs
 
-       refer the usecase service and call it.
+       refer the usecase service and call it under the transaction scope of IUnitOfWork.
 
        Refers UseCase only for Composition Root and IApplicationService.
 
