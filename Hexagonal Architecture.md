@@ -1,5 +1,5 @@
 # $\textsf{\color{darkblue}{Hexagonal-Architecture}}$ 
-This repository is discuss about Hexagonal architecture by using technology Asp.Net Core and Angular.
+This repository will explain about Hexagonal architecture by using technology Asp.Net Core and Angular.
 Solution consists of following projects 
 
 1. Entities
