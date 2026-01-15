@@ -15,8 +15,6 @@ Solution consists of following $\textsf{\color{darkblue}{Projects}}$.
 
 CQRS Architecture Dependency travels towards inwards
 
-<br />
-
 # $\textsf{\color{darkblue}{CQRS - Routing}}$ 
 
 ```nginx
