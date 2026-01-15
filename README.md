@@ -3,6 +3,11 @@
 This repository will discuss about the different architectures in software.
 Currently we listed out below items
 
+$\textsf{\color{darkblue}{1. Layered Architecture}}$
+$\textsf{\color{darkblue}{2. Onion Architecture}}$
+$\textsf{\color{darkblue}{3. Hexagonal Architecture}}$
+$\textsf{\color{darkblue}{4. Clean Architecture}}$
+
 1. Layered Architecture
 2. Onion Architecture
 3. Hexagonal Architecture
