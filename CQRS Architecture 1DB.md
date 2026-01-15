@@ -2,8 +2,8 @@
 
 This repository will explain about CQRS architecture by using technology Asp.Net Core and Angular.
 <br /> <br />
-CQRS is a Architectural pattern that segregates the read and write operations for DB, Here we have 1DB
-<br /> for both read and write.
+CQRS is a Architectural pattern that segregates the read and write operations for DB, 
+<br /> Here we have 1DB for both read and write.
 <br /> <br />
 Solution consists of following $\textsf{\color{darkblue}{Projects}}$.
  
