@@ -15,6 +15,30 @@ Solution consists of following $\textsf{\color{darkblue}{Projects}}$.
 
 CQRS Architecture Dependency travels towards inwards
 
+<br />
+
+# $\textsf{\color{darkblue}{CQRS - Routing}}$ 
+
+```nginx
+
+ Controller
+    |
+ IMediator
+    |
+ CommandHandler
+    |
+ CommandService
+    |
+ IUnitOfWork
+    |
+ Repository
+    |
+  Commit
+
+```
+
+<br/>
+
 # $\textsf{\color{darkblue}{Dependency Layer}}$ 
 ```nginx
 
@@ -43,7 +67,6 @@ CQRS Architecture Dependency travels towards inwards
 
 <br />
 
-<br />
 
 ```nginx
 
@@ -175,25 +198,3 @@ CQRS Architecture Dependency travels towards inwards
 
 <br />
 
-# $\textsf{\color{darkblue}{CQRS - Routing}}$ 
-
-```nginx
-
- Controller
-    |
- IMediator
-    |
- CommandHandler
-    |
- CommandService
-    |
- IUnitOfWork
-    |
- Repository
-    |
-  Commit
-
-```
-
-
-<br/>
