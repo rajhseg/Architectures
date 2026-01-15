@@ -7,6 +7,7 @@ Currently we listed out below items
  $\textsf{\color{darkblue}{2. Onion Architecture}}$   <br />
  $\textsf{\color{darkblue}{3. Hexagonal Architecture}}$ <br />
  $\textsf{\color{darkblue}{4. Clean Architecture}}$ <br />
+ $\textsf{\color{darkblue}{5. CQRS Architecture}}$ <br />
 
 Solution consists of following projects
 
@@ -18,6 +19,9 @@ Solution consists of following projects
 4. Controller
 
 5. Ports (only for Hexagonal arch project)
+6. ApplicationModels (only for CQRS arch project)
+7. Commands (only for CQRS arch project)
+8. Queries (only for CQRS arch project)
 
 ```
 <br />
@@ -29,6 +33,10 @@ Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces
 1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces in $\textsf{\color{blue}{Application Layer}}$.
 2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces placed in separate project as $\textsf{\color{blue}{Ports Layer}}$.
 3. For **Clean** and **Onion** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+4. For **CQRS** Architecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+   <br /> Additionally we have $\textsf{\color{blue}{Commands Project}}$ is for commands model and $\textsf{\color{blue}{Queries Project}}$ is for queries model
+   <br /> and $\textsf{\color{blue}{UseCaseModels Project}}$ is for Models require for UseCase Project, Command Project and Queries Project.
+   
 <br />
 <br />
 
