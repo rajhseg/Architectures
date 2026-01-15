@@ -1,7 +1,7 @@
 # $\textsf{\color{darkblue}{Architecture}}$ 
 
-This repository will discuss about the different architectures present in software.
-Currently it have below items
+This repository will discuss about the different architectures in software.
+Currently we list out below items
 
 1. Layered Architecture
 2. Onion Architecture
