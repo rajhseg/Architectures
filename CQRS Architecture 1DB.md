@@ -1,0 +1,46 @@
+# $\textsf{\color{darkblue}{CQRS - Architecture 1DB - InProgress}}$ 
+
+This repository will explain about CQRS architecture by using technology Asp.Net Core and Angular.
+<br />
+Solution consists of following $\textsf{\color{darkblue}{Projects}}$.
+ 
+
+1. Entities
+2. UseCaseModels or ApplicationModels
+3. Commands
+4. Queries
+5. UseCase or Application
+6. Infrastructure
+7. Controller
+
+CQRS Architecture Dependency travels towards inwards
+
+<br />
+
+# $\textsf{\color{darkblue}{Dependency Layer}}$ 
+```nginx
+
+   Entities
+
+   UseCaseModels
+
+   Commands --> Entities
+            --> UseCaseModels
+
+   Queries --> Entities
+           --> UseCaseModels
+
+   UseCase  --> Entities
+            --> UseCaseModels
+            --> Commands
+            --> Queries
+
+   Infrastructure --> Entities
+                  --> UseCase
+
+   Controller --> Refers UseCase only for Composition Root and use IMediator for Publish "Commands and Queries"
+              --> Refers Infrastrucure only for Composition Root.
+
+```
+
+<br />
