@@ -32,7 +32,9 @@ CQRS Architecture Dependency travels towards inwards
     |
  IUnitOfWork
     |
- Repository
+ Repository1
+    |
+ Repository2
     |
   Commit
 
