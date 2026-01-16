@@ -139,6 +139,12 @@ CQRS Architecture Dependency travels towards inwards
       will have External System Contracts or interfaces (ex IPaymentServiceGateway
             or IAddressValidate)
 
+      will create CommandService and interface for that with internal specifier
+
+      inside the CommandService will create Transaction and commit
+
+      call the CommandService from inside CommandHandler
+
       will have usecase interfaces (ex IAuthorService)
 
       will have usecase implementation with internal access specifiers
