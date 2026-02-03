@@ -91,7 +91,7 @@ CQRS Architecture Dependency travels towards inwards
 2. UseCaseModels or ApplicationModels Project
 
       will have Models needed for UseCase that is
-      <br /> return value for command and queries
+      return models for each command and queries
 
       that models refer in Commands
 
