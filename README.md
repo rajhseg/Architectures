@@ -36,8 +36,9 @@ Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces
    <br /> and its implementation are in $\textsf{\color{blue}{Adapter Layer}}$.
 4. For **Clean** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$
    or $\textsf{\color{blue}{Application Layer}}$.
-6. For **Onion** Archtecture Repository Interfaces are in Domain Layer And ExternalSystems Interfaces are placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
-7. For **CQRS** Architecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+6. For **Onion** Archtecture Repository Interfaces are in Domain Layer And ExternalSystems Interfaces are placed
+   <br /> in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+8. For **CQRS** Architecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
    <br /> Additionally we have $\textsf{\color{blue}{Commands Project}}$ is for commands model and $\textsf{\color{blue}{Queries Project}}$ is for queries model
    <br /> and $\textsf{\color{blue}{UseCaseModels Project}}$ is for Models require for UseCase Project, Command Project and Queries Project.
    
