@@ -30,8 +30,9 @@ Solution consists of following projects
 
 Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
-1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces are placed in $\textsf{\color{blue}{Application Layer}}$.
-2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces are placed in separate project as $\textsf{\color{blue}{Ports Layer}}$
+1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces are placed
+   <br /> in $\textsf{\color{blue}{Application Layer}}$.
+3. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces are placed in separate project as $\textsf{\color{blue}{Ports Layer}}$
    <br /> and its implementation are in $\textsf{\color{blue}{Adapter Layer}}$.
 4. For **Clean** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$
    or $\textsf{\color{blue}{Application Layer}}$.
