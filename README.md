@@ -32,7 +32,7 @@ Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces
 
 1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces are placed in $\textsf{\color{blue}{Application Layer}}$.
 2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces are placed in separate project as $\textsf{\color{blue}{Ports Layer}}$
-   and its implementation are in $\textsf{\color{blue}{Adapter Layer}}$.
+   <br /> and its implementation are in $\textsf{\color{blue}{Adapter Layer}}$.
 4. For **Clean** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$
    or $\textsf{\color{blue}{Application Layer}}$.
 6. For **Onion** Archtecture Repository Interfaces are in Domain Layer And ExternalSystems Interfaces are placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
