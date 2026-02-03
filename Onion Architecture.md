@@ -40,6 +40,13 @@ Onion Architecture Dependency travels towards inwards
 
       Aggregate Root
 
+      will have infrastructure interfaces like Repository interfaces
+            (ex IRepository, IAuthorRepository)
+
+      unitofwork interfaces (ex IUnitOfWork)
+
+      transaction interfaces (ex ITransaction)
+
 ```
 
 <br />
@@ -57,13 +64,6 @@ Onion Architecture Dependency travels towards inwards
 
       usecase (AuthorService) implementation should have transactions implemented
          using IUnitOFWork interface
-
-      will have infrastructure interfaces like Repository interfaces
-            (ex IRepository, IAuthorRepository)
-
-      unitofwork interfaces (ex IUnitOfWork)
-
-      transaction interfaces (ex ITransaction)
 
       will have External System Services interfaces (ex IEmailService)
 
