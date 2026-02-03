@@ -30,10 +30,11 @@ Solution consists of following projects
 
 Architecture are differ based on the **RepositoryAndExternalSystems** Interfaces placed
 
-1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces in $\textsf{\color{blue}{Application Layer}}$.
-2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces placed in separate project as $\textsf{\color{blue}{Ports Layer}}$.
-3. For **Clean** and **Onion** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
-4. For **CQRS** Architecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+1. For **Layered** Architecture Repository Interfaces placed in $\textsf{\color{blue}{Domain Layer}}$, ExternalSystems interfaces are placed in $\textsf{\color{blue}{Application Layer}}$.
+2. For **Hexagonal** Architecture RepositoryAndExternalSystems Interfaces are placed in separate project as $\textsf{\color{blue}{Ports Layer}}$ and its implementation in Adapters.
+3. For **Clean** Archtecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+4. For **Onion** Archtecture Repository Interfaces are in Domain Layer And ExternalSystems Interfaces are placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
+5. For **CQRS** Architecture RepositoryAndExternalSystems Interfaces is placed in $\textsf{\color{blue}{UseCase Layer}}$ or $\textsf{\color{blue}{Application Layer}}$.
    <br /> Additionally we have $\textsf{\color{blue}{Commands Project}}$ is for commands model and $\textsf{\color{blue}{Queries Project}}$ is for queries model
    <br /> and $\textsf{\color{blue}{UseCaseModels Project}}$ is for Models require for UseCase Project, Command Project and Queries Project.
    
