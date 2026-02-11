@@ -55,13 +55,10 @@ CQRS Architecture Dependency travels towards inwards
    Queries --> Entities
            --> UseCaseModels
 
-   UseCase  --> Entities
-            --> UseCaseModels
-            --> Commands
+   UseCase  --> Commands
             --> Queries
 
-   Infrastructure --> Entities
-                  --> UseCase
+   Infrastructure --> UseCase
 
    Controller --> Refers UseCase only for Composition Root and use IMediator for Publish "Commands and Queries"
               --> Refers Infrastrucure only for Composition Root.
