@@ -20,7 +20,6 @@ Onion Architecture Dependency travels towards inwards
    UseCase  --> Entities
 
    Infrastructure --> Entities
-                  --> UseCase
 
    Controller --> Refers UseCase only for Composition Root and IApplicationService.
               --> Refers Infrastrucure only for Composition Root.
